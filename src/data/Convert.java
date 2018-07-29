@@ -1,4 +1,4 @@
-package testpkg;
+package data;
 
 import java.text.NumberFormat;
 import java.util.Scanner;
