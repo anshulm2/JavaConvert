@@ -55,12 +55,8 @@ public static void main(final String[] args) {
 
 	int n;
 	Scanner s=new Scanner(System.in);
-	n=1;
-	while(n!=0)
-	{
-    System.out.println("Enter a number to convert into word format");
-	n =s.nextInt();
-	System.out.println(NumberFormat.getInstance().format(n) + "='" + convert(n) + "'");
-	}
+	System.out.println(NumberFormat.getInstance().format(n) + "='" + convert(102) + "'");
+	        System.out.println(NumberFormat.getInstance().format(n) + "='" + convert(602) + "'");
+		        System.out.println(NumberFormat.getInstance().format(n) + "='" + convert(142) + "'");
 }
 }
