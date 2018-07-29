@@ -55,8 +55,8 @@ public static void main(final String[] args) {
 
 	int n;
 	Scanner s=new Scanner(System.in);
-	System.out.println(NumberFormat.getInstance().format(n) + "='" + convert(102) + "'");
-	        System.out.println(NumberFormat.getInstance().format(n) + "='" + convert(602) + "'");
-		        System.out.println(NumberFormat.getInstance().format(n) + "='" + convert(142) + "'");
+	System.out.println(NumberFormat.getInstance().format(102) + "='" + convert(102) + "'");
+	        System.out.println(NumberFormat.getInstance().format(602) + "='" + convert(602) + "'");
+		        System.out.println(NumberFormat.getInstance().format(142) + "='" + convert(142) + "'");
 }
 }
